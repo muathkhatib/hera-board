@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  /* width: 95vw; */
+  /* border: 1px solid blue; */
+  display: flex;
+  /* align-items: flex-start; */
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.chart-container {
+  width: 600px;
+  margin: 2rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid #c7c7c7;
+  padding: 2rem;
+}
+.chart-title {
+  text-align: center;
+  line-height: 1.8;
+  font-family: "Roboto", sans-serif;
+}
