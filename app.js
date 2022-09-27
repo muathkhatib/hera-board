@@ -131,3 +131,7 @@ d3.csv('./assets/data/Past30DaysEmergencyCall.csv')
 //health-tips-news
 d3.csv('./assets/data/Past30DaysHealthTipsNews.csv')
     .then(data => chartsHandler('health-tips-news', 'line', data, "City"));
+
+// days-health-records
+d3.csv('./assets/data/Past30DaysHealthRecords.csv')
+    .then(data => chartsHandler('days-health-records', 'line', data, "series"));
