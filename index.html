@@ -25,24 +25,32 @@
   <body>
     <header class="header">
       <div class="logo-container">
-        <img class="logo" src="./assets/images/hera-new-logo.webp" alt="hera-logo">
+        <img
+          class="logo"
+          src="./assets/images/hera-new-logo.webp"
+          alt="hera-logo"
+        />
+      </div>
+      <div class="header-description">
+        <h3>Data Analysis</h3>
+        <p>Date: 1 August 2022 – 25 September 2022</p>
       </div>
     </header>
     <main class="container">
       <!-- Install App vs User Actually Signed Up -->
-      <div class="chart-container">
+      <div class="chart-box">
         <h3 class="chart-title">Install App vs User Actually Signed Up</h3>
         <canvas id="installs"></canvas>
       </div>
 
       <!-- Past30DaysNearbyHealthCenters -->
-      <div class="chart-container">
+      <div class="chart-box">
         <h3 class="chart-title">Past30DaysNearbyHealthCenters</h3>
         <canvas id="nearby-health-centers"></canvas>
       </div>
 
       <!-- Total number of reminders -->
-      <div class="chart-container">
+      <div class="chart-box">
         <h3 class="chart-title">
           Total number of reminders <span id="number">0</span>
         </h3>
@@ -50,7 +58,7 @@
       </div>
 
       <!--Many people reached emergency services through HERA (calling 911) -->
-      <div class="chart-container">
+      <div class="chart-box">
         <h3 class="chart-title">
           Many people reached emergency services through HERA (calling 911)
         </h3>
@@ -58,7 +66,7 @@
       </div>
 
       <!--Past 30 Days Health Tips News -->
-      <div class="chart-container">
+      <div class="chart-box">
         <h3 class="chart-title">
           Many of people learned about <br />
           COVID, Pregnancy, Baby Nutirition
@@ -66,13 +74,19 @@
         <canvas id="health-tips-news"></canvas>
       </div>
       <!--Past30DaysHealthRecords.csv -->
-      <div class="chart-container">
+      <div class="chart-box">
         <h3 class="chart-title">
           We helped this many people carry their health records
         </h3>
         <canvas id="days-health-records"></canvas>
       </div>
-      
+      <!-- Response to checkup / vaccination attendance -->
+      <div class="chart-box">
+        <h3 class="chart-title">
+          Response to checkup / vaccination attendance
+        </h3>
+        <canvas id="response-to-checkup"></canvas>
+      </div>
     </main>
     <script src="./app.js" type="text/javascript"></script>
   </body>
